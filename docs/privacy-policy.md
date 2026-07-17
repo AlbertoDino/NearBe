@@ -1,3 +1,8 @@
+---
+permalink: /privacy-policy/
+title: NearBe Privacy Policy
+---
+
 # NearBe Privacy Policy
 
 **Last updated:** 11 July 2026
@@ -56,7 +61,7 @@ NearBe is not directed at children and we do not knowingly collect data from chi
 
 ## 7. Your rights (UK/EU users)
 
-Under UK GDPR and the Data Protection Act 2018, you have the right to access, correct, or delete your data. Since all app data lives on your device, you can exercise these rights directly by editing or deleting pins, or uninstalling the app. For questions, contact dinoitaly@gmail.com.
+Under UK GDPR and the Data Protection Act 2018, you have the right to access, correct, or delete your data. Since all app data lives on your device, you can exercise these rights directly by editing or deleting pins, or uninstalling the app. For questions, contact dinosoft.uk@gmail.com.
 
 ## 8. Changes to this policy
 
@@ -64,4 +69,4 @@ We may update this policy as the app changes. Material changes will be reflected
 
 ## 9. Contact
 
-Questions about this policy or your data: **dinoitaly@gmail.com**
+Questions about this policy or your data: **dinosoft.uk@gmail.com**
