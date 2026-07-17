@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NearBe</title>
+<meta name="description" content="NearBe — drop pins on a map and get notified when you're nearby, even with the app closed.">
+<style>
+  :root {
+    --bg: #FFFBF0;
+    --text: #1C1710;
+    --muted: #8A6600;
+    --accent: #FDBF02;
+    --accent-light: #FFD54F;
+    --card-bg: #ffffff;
+    --card-border: rgba(28, 23, 16, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15130C;
+      --text: #FFFBF0;
+      --muted: #FFD54F;
+      --accent: #FDBF02;
+      --accent-light: #FFD54F;
+      --card-bg: #1C1710;
+      --card-border: rgba(255, 251, 240, 0.1);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 20px 32px;
+  }
+  main {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .logo {
+    width: 112px;
+    height: 112px;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(28, 23, 16, 0.18);
+  }
+  h1 {
+    font-size: 2.25rem;
+    margin: 24px 0 4px;
+    letter-spacing: -0.02em;
+  }
+  h1 span {
+    color: var(--accent);
+  }
+  .tagline {
+    font-size: 1.1rem;
+    color: var(--muted);
+    margin: 0 0 32px;
+    font-weight: 600;
+  }
+  .statement {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 28px 24px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    width: 100%;
+  }
+  .statement p {
+    margin: 0 0 14px;
+  }
+  .statement p:last-child {
+    margin-bottom: 0;
+  }
+  .statement strong {
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    opacity: 0.75;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.png" alt="NearBe logo">
+  <h1>Near<span>Be</span></h1>
+  <p class="tagline">Never forget a place again.</p>
+
+  <div class="statement">
+    <p>Drop a pin on the map for any place you want to remember. Next time you're nearby, NearBe sends you a notification — even if the app is closed.</p>
+    <p>Or pick a <strong>type</strong> of place, like a vintage shop or a café, and NearBe will quietly watch the area as you move around and let you know when one is close.</p>
+  </div>
+
+  <footer>
+    <a href="privacy-policy/">Privacy Policy</a>
+    <a href="mailto:dinosoft.uk@gmail.com">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
